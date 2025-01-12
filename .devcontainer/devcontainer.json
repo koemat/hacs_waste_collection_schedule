@@ -1,38 +1,25 @@
 // See https://aka.ms/vscode-remote/devcontainer.json for format details.
 {
-	"name": "Waste Collection Schedule development",
-	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-	"appPort": [
-		"9123:8123"
-	],
-	"containerEnv": {
-		"TZ": "Europe/Berlin" // Set your local timezone here
-	},
-	"features": {
-		"ghcr.io/devcontainers/features/python:1": {}
-	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-python.python",
-				"github.vscode-pull-request-github",
-				"ryanluker.vscode-coverage-gutters",
-				"ms-python.vscode-pylance"
-			],
-			"settings": {
-				"files.eol": "\n",
-				"editor.tabSize": 4,
-				"terminal.integrated.shell.linux": "/bin/bash",
-				"python.defaultInterpreterPath": "/usr/bin/python3",
-				"python.analysis.autoSearchPaths": false,
-				"python.linting.pylintEnabled": true,
-				"python.linting.enabled": true,
-				"python.formatting.provider": "black",
-				"editor.formatOnPaste": false,
-				"editor.formatOnSave": true,
-				"editor.formatOnType": true,
-				"files.trimTrailingWhitespace": true
-			}
-		}
-	}
+  "name": "Home Assistant Development Add-ons",
+  "image": "ghcr.io/home-assistant/devcontainer:addons",
+  "appPort": ["7123:8123", "7357:4357"],
+  "postStartCommand": "bash devcontainer_bootstrap",
+  "runArgs": ["-e", "GIT_EDITOR=code --wait", "--privileged"],
+  "remoteUser":"root",
+  "containerEnv": {
+    "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}"
+  },
+  "extensions": ["timonwong.shellcheck", "esbenp.prettier-vscode"],
+  "settings": {
+    "terminal.integrated.profiles.linux": {
+      "zsh": {
+        "path": "/usr/bin/zsh"
+      }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.trimTrailingWhitespace": true
+  }
 }
