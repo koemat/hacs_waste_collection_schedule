@@ -2362,6 +2362,29 @@
         },
         "data_description": {}
       },
+      "args_bep_environnement_be": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. \n\nGo to the \"https://www.bep-environnement.be\" website if you're unsure about your locality.\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/bep_environnement_be.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "locality": "Locality"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "locality": "Name of the locality"
+        }
+      },
+      "reconfigure_bep_environnement_be": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. \n\nGo to the \"https://www.bep-environnement.be\" website if you're unsure about your locality.\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/bep_environnement_be.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "locality": "Locality"
+        },
+        "data_description": {
+          "locality": "Name of the locality"
+        }
+      },
       "args_hygea_be": {
         "title": "Configure Source",
         "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/hygea_be.md.",
@@ -6378,7 +6401,7 @@
       },
       "args_ics_abfallkalender_erftstadt_de": {
         "title": "Configure Source",
-        "description": "Configure your service provider. \n\n- Go to https://abfallkalender-erftstadt.de/ and select your location.  \n- Click on `Zum Kalender hinzufügen`.\n- Click on `weiter` without selecting reminder.\n- Copy the link below `Für Google Kalender` or copy the link from the `Abonnieren` or `Download` button.\n- Replace the `url` in the example configuration with this link.\n- Keeping the `regex` as it is, will remove the district name from the event title.\n\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/ics/abfallkalender_erftstadt_de.md.",
+        "description": "Configure your service provider. \n\n- Go to https://abfallkalender-erftstadt.de/ and select your location.\n- Click on `Zum Kalender hinzufügen`.\n- Click on `weiter` without selecting reminder.\n- Copy the link below `Für Google Kalender` or copy the link from the `Abonnieren` or `Download` button.\n- Replace the `url` in the example configuration with this link.\n- Keeping the `regex` as it is, will remove the district name from the event title.\n\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/ics/abfallkalender_erftstadt_de.md.",
         "data": {
           "calendar_title": "Calendar Title",
           "file": "File",
@@ -6400,7 +6423,7 @@
       },
       "reconfigure_ics_abfallkalender_erftstadt_de": {
         "title": "Reconfigure Source",
-        "description": "Configure your service provider. \n\n- Go to https://abfallkalender-erftstadt.de/ and select your location.  \n- Click on `Zum Kalender hinzufügen`.\n- Click on `weiter` without selecting reminder.\n- Copy the link below `Für Google Kalender` or copy the link from the `Abonnieren` or `Download` button.\n- Replace the `url` in the example configuration with this link.\n- Keeping the `regex` as it is, will remove the district name from the event title.\n\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/ics/abfallkalender_erftstadt_de.md.",
+        "description": "Configure your service provider. \n\n- Go to https://abfallkalender-erftstadt.de/ and select your location.\n- Click on `Zum Kalender hinzufügen`.\n- Click on `weiter` without selecting reminder.\n- Copy the link below `Für Google Kalender` or copy the link from the `Abonnieren` or `Download` button.\n- Replace the `url` in the example configuration with this link.\n- Keeping the `regex` as it is, will remove the district name from the event title.\n\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/ics/abfallkalender_erftstadt_de.md.",
         "data": {
           "calendar_title": "Calendar Title",
           "file": "File",
@@ -11228,6 +11251,33 @@
           "location": "Location"
         },
         "data_description": {}
+      },
+      "args_olo_sk": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/olo_sk.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "registrationNumber": "Enter OLO registration number",
+          "street": "Enter street name"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "registrationNumber": "OLO registration number",
+          "street": "Street name and number"
+        }
+      },
+      "reconfigure_olo_sk": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/olo_sk.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "registrationNumber": "Enter OLO registration number",
+          "street": "Enter street name"
+        },
+        "data_description": {
+          "registrationNumber": "OLO registration number",
+          "street": "Street name and number"
+        }
       },
       "args_mojiodpadki_si": {
         "title": "Configure Source",

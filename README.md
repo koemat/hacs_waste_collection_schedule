@@ -615,6 +615,7 @@ If your service provider is not listed, feel free to open a [source request issu
 <details>
 <summary>Belgium</summary>
 
+- [Bep-Environnement](/doc/source/bep_environnement_be.md) / bep-environnement.be
 - [Hygea](/doc/source/hygea_be.md) / hygea.be
 - [Ittre](/doc/source/ittre_be.md) / ittre.be
 - [Limburg.net](/doc/ics/limburg_net.md) / limburg.net
@@ -952,7 +953,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Entsorgungsgesellschaft Görlitz-Löbau-Zittau](/doc/ics/abfall_eglz_de.md) / abfall-eglz.de
 - [Entsorgungstermine Jena](/doc/ics/entsorgungstermine_jena_de.md) / entsorgungstermine.jena.de
 - [Erbach](/doc/source/reso_gmbh_de.md) / reso-gmbh.de
-- [Erfstadt (inoffical)](/doc/ics/abfallkalender_erftstadt_de.md) / abfallkalender-erftstadt.de
+- [Erftstadt (inoffical)](/doc/ics/abfallkalender_erftstadt_de.md) / abfallkalender-erftstadt.de
 - [Esens (MyMuell App)](/doc/source/jumomind_de.md) / mymuell.de
 - [ESG Soest - Entsorgungswirtschaft Soest GmbH](/doc/ics/esg_soest_de.md) / esg-soest.de
 - [Eslohe](/doc/source/lobbe_app.md) / lobbe.app
@@ -1997,6 +1998,7 @@ If your service provider is not listed, feel free to open a [source request issu
 <summary>Slovakia</summary>
 
 - [fcc Environment](/doc/source/fcc_group_eu.md) / fcc-group.eu
+- [OLO](/doc/source/olo_sk.md) / olo.sk
 </details>
 
 <details>
